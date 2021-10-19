@@ -10,15 +10,11 @@ const IndexPage = () => {
       <div className="layout">
         <Sociallinks/>
         <div className="wrapp">
-          <div style={{ border: "red" }}>
-          <h1>{ 'Hallo World!' }</h1>
-          <h2 style={{ color: textColor, margin: 2 }}>{ 'My Name is' }</h2>
-          <h2 style={{ color: textColor, margin: 2 }}>{ 'Theeraprasert Meemui' }</h2>
-
+          <div>
+            <h1>{ 'Hello World!' }</h1>
+            <h2 style={{ color: textColor, marginTop: "8px", marginBottom: 0 }}>{ 'My Name is' }</h2>
+            <h2 style={{ color: textColor, marginTop: "8px" }}>{ 'Theeraprasert Meemui' }</h2>
           </div>
-          {/* <h1>{ 'Hallo World' }</h1>
-          <h1>{ 'System.out.printf("Theeraprasert Meemui")' }</h1>
-          <hr/> */}
         </div>
         <footer className="fixbot">
           <p style={{ color:"#fff", letterSpacing: ".2rem", fontSize: ".6rem", opacity: ".75", marginBottom: 0 }}>
