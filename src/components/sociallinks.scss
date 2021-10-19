@@ -1,0 +1,36 @@
+$linkhover: #333232;
+.link {
+    border: 2.5px solid #121111;
+    padding: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 4px;
+    cursor: pointer
+}
+
+.link:hover,
+.link:focus,
+.link:hover svg path {
+    border: 2.5px solid $linkhover;
+    fill: $linkhover;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (min-width: 576px) { 
+    .box-container{
+        justify-content: end !important;
+    }
+  }
+
+.box-container{
+    padding: 3.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+

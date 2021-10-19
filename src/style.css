@@ -32,7 +32,8 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
-  --font-body: var(--fontFamily-serif);
+  /* --font-body: var(--fontFamily-serif); */
+  --font-body: Roboto;
   --font-heading: var(--fontFamily-sans);
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
@@ -351,4 +352,32 @@ a:focus {
   align-items: center;
   height: 56px;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.fixbot {
+  position: fixed;
+  bottom: 0;
+  text-align: right;
+  width: 100%;
+  padding: 3.5rem;
+}
+
+hr {
+  border: 1px solid red;
+}
+
+@media (min-width: 576px) { 
+  .wrapp{
+    padding: 10rem;
+    padding-top: 3rem !important;
+  }
+}
+
+.wrapp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  padding-top: 0;
+  width: 100%;
 }

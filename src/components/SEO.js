@@ -5,8 +5,11 @@ const SEO = ({ description, lang, meta, title }) => {
         return(
         // <Helmet title={ title || 'Theem' } defer={ false } />
         <Helmet>
-            <title>{ title || 'Theeraprasert.m' }</title>
-            <meta name="description" content={ description || 'Theeraprasert Meemui'} />
+            {/* <link rel="shortcut icon" type="image/png" href="../images/person.svg"/> */}
+            <title>{ title || 'Thup.site' }</title>
+            <meta name="description" content={ description || 'something'} />
+            <meta name="theme-color" content="#ffffff"></meta>
+            <meta name="twitter:site" content="@thupmeemui"></meta>
         </Helmet>
 
     )
