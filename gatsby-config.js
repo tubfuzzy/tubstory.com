@@ -4,13 +4,14 @@ module.exports = {
     title: "My Gatsby Site",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "",
+        trackingId: "G-MD91WN7LZV",
       },
     },
     "gatsby-plugin-react-helmet",
