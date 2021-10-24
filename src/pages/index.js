@@ -1,6 +1,7 @@
 import * as React from "react"
 import SEO from "../components/SEO"
 import Sociallinks from "../components/sociallinks"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const IndexPage = () => {
   const textColor = "#f2eded"
@@ -11,9 +12,9 @@ const IndexPage = () => {
         <Sociallinks/>
         <div className="wrapp">
           <div>
-            <h1>{ 'Hello World!' }</h1>
-            <h2 style={{ color: textColor, marginTop: "8px", marginBottom: 0 }}>{ 'My Name is' }</h2>
-            <h2 style={{ color: textColor, marginTop: "8px" }}>{ 'Theeraprasert Meemui' }</h2>
+            <h1 className="animated bounceIn">{ 'Hello World!' }</h1>
+            <h2 className="animated bounceIn" style={{ color: textColor, marginTop: "8px", marginBottom: 0 }}>{ 'My Name is' }</h2>
+            <h2 className="animated bounceIn" style={{ color: textColor, marginTop: "8px" }}>{ 'Theeraprasert Meemui' }</h2>
           </div>
         </div>
         <footer className="fixbot">

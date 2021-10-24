@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://theem.netlify.app/",
     title: "My Gatsby Site",
   },
   plugins: [
@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "G-6B32CFZLFK",
+        trackingId: "G-KPHGVM1DD5",
       },
     },
     "gatsby-plugin-react-helmet",
