@@ -1,13 +1,12 @@
-import * as React from "react"
-import SEO from "../components/SEO"
+import React, { Fragment } from "react"
+import { default as Seo } from '../components/SEO';
 import Sociallinks from "../components/sociallinks"
-import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const IndexPage = () => {
   const textColor = "#f2eded"
   return (
-    <React.Fragment>
-      <SEO/>
+    <Fragment>
+      <Seo title="my-website"/>
       <div className="layout">
         <Sociallinks/>
         <div className="wrapp">
@@ -23,7 +22,7 @@ const IndexPage = () => {
           </p>
         </footer>
       </div>
-    </React.Fragment>
+    </Fragment>
   )
 }
 
