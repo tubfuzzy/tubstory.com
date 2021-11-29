@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "https://img.icons8.com/external-wanicon-lineal-wanicon/64/000000/external-unicorn-fintech-wanicon-lineal-wanicon.png",
+        icon: "src/images/icon.png",
       },
     },
     "gatsby-plugin-sharp",
