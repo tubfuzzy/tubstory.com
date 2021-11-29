@@ -1,24 +1,18 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://theem.netlify.app/",
-    title: "My Gatsby Site",
+    siteUrl: "https://tubstory.com",
+    title: "tubstory",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "G-KPHGVM1DD5",
-      },
-    },
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "https://img.icons8.com/external-wanicon-lineal-wanicon/64/000000/external-unicorn-fintech-wanicon-lineal-wanicon.png",
       },
     },
     "gatsby-plugin-sharp",
