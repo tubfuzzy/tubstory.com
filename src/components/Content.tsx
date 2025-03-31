@@ -19,7 +19,7 @@ const Content = () => {
           <Button component="a" href='https://www.linkedin.com/in/theeraprasert-meemui' target='_blank'><LinkedInIcon /></Button>
           <Button component="a" href='' target='_blank'><XIcon /></Button>
           <Button component="a" href='https://web.facebook.com/theeraprased.meemui' target='_blank'><FacebookIcon /></Button>
-          <Button component="a" href='mailto:tub.meemui@gmail.com'><AlternateEmailIcon /></Button>
+          <Button component="a" href='mailto:theeraprasert@tubstory.com'><AlternateEmailIcon /></Button>
         </ButtonGroup>
       </Container>
     </Box>
