@@ -47,7 +47,7 @@ const Header: React.FC<HeaderProps> = ({ settheme }) => {
                                     Resume
                                 </Typography>
                             </Link>
-                            <Link sx={{ mx: { xs: 1, md: 2 } }} href="mailto:theeraprasert@tubstory.com" color="inherit" underline="none">
+                            <Link sx={{ mx: { xs: 1, md: 2 } }} href="mailto:tub.me@tubstory.com" color="inherit" underline="none">
                                 <Typography sx={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} variant="body2" fontWeight="bold">
                                     <PermContactCalendarIcon />
                                     Contact me
